@@ -1,0 +1,46 @@
+*{
+    font-family: "Arimo", sans-serif;
+}
+
+.button{
+    background-color: rgb(0, 0, 255);
+    padding: 9px 25px;
+    font-weight: bolder;
+    font-size: medium;
+    color: rgb(237, 231, 231);
+    cursor: pointer;
+    border: none;
+    border-radius: 9px;
+    
+
+}
+
+.navig{
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.logo{
+    width: 120px;
+    height: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between; 
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(90, 85, 85);
+    font-size: larger;
+}
