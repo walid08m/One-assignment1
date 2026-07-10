@@ -15,8 +15,6 @@
     cursor: pointer;
     border: none;
     border-radius: 9px;
-    
-
 }
 
 .box{
@@ -75,11 +73,51 @@ ul li a{
     padding: 15px;
     font-size: 13px;
     margin: 30px 0 90px;
-    
 }
 
 .banner img{
     width: 100%;
     height: auto;
     display: block;
+}
+
+/* meet the speakers section */
+.meet-the-speakers{
+    margin: 85px auto;
+    text-align: center;
+}
+
+.meet-the-speakers h1{
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+
+.speaker-boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.speaker-content{
+    padding: 15px;
+    text-align: left;
+    border: solid rgb(229, 227, 227) 1px;
+    border-radius: 10px;
+}
+
+.speaker-content img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.speaker-content p{
+    margin: 10px 0;
+    color: rgb(86, 86, 86);
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.speaker-content h4{
+    margin-bottom: 10px;
+    font-weight: bold;
 }
