@@ -34,14 +34,14 @@ nav {
     height: auto;
 }
 
-ul{
+nav ul{
     display: flex;
     list-style: none;
     gap: 25px;
     align-items: center;
 }
 
-ul li a{
+nav ul li a{
     text-decoration: none;
     color: rgb(90, 85, 85);
     font-size: medium;
@@ -80,7 +80,9 @@ ul li a{
     height: auto;
     display: block;
 }
-
+.second-button{
+    padding: 15px 30px;
+}
 /* meet the speakers section */
 .meet-the-speakers{
     margin: 85px auto;
@@ -120,4 +122,76 @@ ul li a{
 .speaker-content h4{
     margin-bottom: 10px;
     font-weight: bold;
+}
+
+/*  */
+.pricing-spot-section{
+    margin: 60px auto;
+    text-align: center;
+}
+.price-box{
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.price-card{
+    border: solid rgb(202, 200, 200) 1px;
+    padding: 28px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.price-card h2{
+    margin: 10px 0;
+    font-size: 60px;
+}
+
+.price-card p{
+    font-size: 15px;
+    color:  rgb(148, 148, 148);
+}
+
+.price-card ul{
+    margin: 25px 0; 
+    padding-left: 20px;
+}
+
+.price-card li{
+    margin-bottom:10px;
+}
+
+
+.pro-card{
+    color: rgb(255, 255, 255);
+    background-color: rgba(10, 3, 113, 0.968);
+}
+
+hr{
+    margin-top: 20px;
+    border-radius: none;
+    border-top: 1px solid  rgb(148, 148, 148);
+}
+.blue-button{
+    background-color: white;
+    padding: 9px 65px;
+    font-weight: bolder;
+    font-size: medium;
+    color: rgb(0, 68, 255);
+    cursor: pointer;
+    border: solid  rgb(0, 68, 255) 1px;
+    border-radius: 9px;
+}
+.white-button{
+    background-color: white;
+    padding: 9px 65px;
+    font-weight: bolder;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: solid  rgb(148, 148, 148) 1px;
+    border-radius: 9px;
+}
+.price-card button{
+    padding: 9px 65px;
 }
