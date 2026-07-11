@@ -124,7 +124,7 @@ nav ul li a{
     font-weight: bold;
 }
 
-/*  */
+/* price section */
 .pricing-spot-section{
     margin: 60px auto;
     text-align: center;
@@ -194,4 +194,37 @@ hr{
 }
 .price-card button{
     padding: 9px 65px;
+}
+
+/* footer section */
+footer{
+    display: flex;
+    text-align: center;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: rgb(224, 209, 209);
+    background-color: rgb(14, 26, 61);
+    font-size: small;
+}
+.left-footer{
+    display: flex;
+    gap: 20px;
+
+}
+.left-footer p{
+    text-decoration: none;
+    color: rgb(224, 209, 209);
+}
+
+.right-footer{
+    display: flex;
+    gap: 10px;
+    font-size: 22px;
+}
+
+footer img{
+    height: auto;
+    width: 85px;
 }
