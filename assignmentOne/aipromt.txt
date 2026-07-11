@@ -1,0 +1,5 @@
+Generate a section of a website that's relevant to the DevConf 2026 theme (a dev conference). The section should include a FAQ section, like Who can attend? Will there be workshops? Do I need to bring a laptop and Venue Details like location, date, and time?
+ Use a modern black and navy blue theme with a white background. The section should have a modern and professional look. Add a large, bold heading in the center with a short paragraph. Below the heading, create two cards placed one below the other. 
+The first card should contain the FAQ, and the second card should contain the Venue Details. Make the cards look like simple pricing plan cards on a modern website. 
+They should have a thin light gray border, rounded corners, enough padding inside, and proper spacing between each heading, paragraph, and list item so the content is easy to read. The cards should not look crowded, and there should be enough space around the entire section. Use Flexbox or Grid wherever necessary to keep the layout looking clean and modern.
+ Do not use external images, icons, fonts, animations, or anything other than Html and external Css
